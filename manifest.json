@@ -21,6 +21,7 @@
 		{
 		"matches": [
 			"*://twitter.com/*",
+			"*://tweetdeck.twitter.com/",
 			"*://x.com/*"
 		],
 		"js": ["content.js"],
@@ -34,6 +35,7 @@
 	],
 	"host_permissions": [
 		"*://twitter.com/*",
+		"*://tweetdeck.twitter.com/",
 		"*://x.com/*"
 	],
 	"web_accessible_resources": [{
