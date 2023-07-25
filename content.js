@@ -36,7 +36,7 @@ function waitForX(selector) {
 let exUrl = chrome.runtime.id
 let icons = document.querySelectorAll('link[rel*="icon"]')
 for(let i=0; i<icons.length; i++){
-  icons[i].href = `chrome-extension://${exUrl}/logos/bird.svg`
+  icons[i].href = `chrome-extension://${exUrl}/bird.svg`
 }
 
 waitForX('a[href="/home"][aria-label="Twitter"] div svg').then(()=>{
